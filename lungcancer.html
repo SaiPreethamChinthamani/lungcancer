@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src = './lungcancer.js'></script>
+  <link rel="stylesheet" href="lungcancer.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Lung Cancer Predictor</h1>
+
+        <!-- gender section -->
+        <div class="section-wrapper">
+            <div class="category"> Gender </div>
+            <select id="gender">
+              <option value="default">Select one</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            </select>
+        </div>
+
+        <!-- age section -->
+          <div class="section-wrapper">
+            <div class="category">Age</div>
+            <input type="number" id='age' max="???" min="???" step="1" placeholder="Enter age"/>
+          </div>
+
+          <!-- smoking section -->
+          <div class="section-wrapper">
+            <div class="category">Smoking</div>
+            <select id="smoking">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+          <!-- yellow fingers section -->
+          <div class="section-wrapper">
+            <div class="category">Yellow fingers</div>
+            <select id="yellow_fingers">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+          <!-- anxiety section -->
+          <div class="section-wrapper">
+            <div class="category">Anxiety</div>
+            <select id="anxiety">Anxiety
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+          <!-- peer pressure section -->
+          <div class="section-wrapper">
+            <div class="category">Peer pressure</div>
+            <select id="peer_pressure">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- chronic disease -->
+          <div class="section-wrapper">
+            <div class="category">Chronic disease</div>
+            <select id="chronic_disease">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- fatigue section -->
+          <div class="section-wrapper">
+            <div class="category">Fatigue</div>
+            <select id="fatigue">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- allergy section -->
+          <div class="section-wrapper">
+            <div class="category">Allergy</div>
+            <select id="allergy">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- wheezing section -->
+          <div class="section-wrapper">
+            <div class="category">Wheezing</div>
+            <select id="wheezing">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- alcohol consuming section -->
+          <div class="section-wrapper">
+            <div class="category">Alcohol Consuming</div>
+            <select id="alcohol_consuming">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- coughing section -->
+          <div class="section-wrapper">
+            <div class="category">Coughing</div>
+            <select id="coughing">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- shortness of breath section  -->
+          <div class="section-wrapper">
+            <div class="category">Shortness of breath</div>
+            <select id="shortness_of_breath">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+          <!-- swallowing-difficulty section -->
+          <div class="section-wrapper">
+            <div class="category">Swallowing difficulty</div>
+            <select id="swallowing_difficulty">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- chest-pain section -->
+          <div class="section-wrapper">
+            <div class="category">Chest pain</div>
+            <select id="chest_pain">
+                <option value="default">Select one</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </div>
+
+        <!-- submit button -->
+          <input id="submit" type="button" value="Submit" class="submit"/>
+    </div>
+</body>
+</html>
